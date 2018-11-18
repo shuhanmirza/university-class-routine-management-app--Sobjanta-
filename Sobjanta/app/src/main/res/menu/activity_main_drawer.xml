@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_routine"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Class Schedule" />
+        <item
+            android:id="@+id/nav_my_course"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Enrolled Courses" />
+        <item
+            android:id="@+id/nav_available_course"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Available Courses" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Log Out" />
+    </group>
+
+    <item android:title="Management">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:icon="@drawable/feedback_logo"
+                    android:title="Give Feedback" />
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/contacts_logo"
+                    android:title="Contacts" />
+                <item
+                    android:id="@+id/nav_edit_routine"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Manage Schedule" />
+                <item
+                    android:id="@+id/nav_announcement"
+                    android:icon="@drawable/announce_logo"
+                    android:title="Announcement" />
+                <item
+                    android:id="@+id/nav_admin"
+                    android:icon="@drawable/ic_settings"
+                    android:title="Admin Panel" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

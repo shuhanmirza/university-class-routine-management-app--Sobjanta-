@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#eee"
+    android:padding="8dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="16dp"
+        android:elevation="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/courseId"
+                android:text="GEE-322"
+                android:textColor="@color/colorBlack"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/courseTeacher"
+                android:layout_toRightOf="@+id/courseId"
+                android:layout_marginLeft="8dp"
+                android:text="()"
+                android:gravity="bottom"
+                android:textColor="@color/colorBlack"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/courseName"
+                android:layout_below="@+id/courseId"
+                android:text="Economic Geography"
+                android:textColor="@color/colorBlack"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/classData"
+                android:layout_below="@+id/courseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+                <TextView
+                    android:id="@+id/classTime"
+                    android:text="Time: "
+                    android:textColor="@color/colorBlack"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"/>
+                <TextView
+                    android:id="@+id/classRoom"
+                    android:text="Room: "
+                    android:textColor="@color/colorBlack"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/classCancel"
+                android:layout_below="@+id/classData"
+                android:visibility="gone"
+                android:text="Canceled"
+                android:textColor="@color/colorRed"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

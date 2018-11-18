@@ -1,0 +1,4 @@
+#Wed Sep 05 13:32:44 BDT 2018
+base.0=C\:\\Users\\shuha\\Desktop\\Sobjanta-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\113
+path.0=classes.dex
+renamed.0=classes.dex

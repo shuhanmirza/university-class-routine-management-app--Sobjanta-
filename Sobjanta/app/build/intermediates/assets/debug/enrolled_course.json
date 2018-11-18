@@ -1,0 +1,74 @@
+{
+  "courses": [
+    {
+      "index": 1,
+      "course_code": "GEE424",
+      "course_name": "GEE Bradley Pridgen",
+      "teacher": "Erika",
+      "enabled": false
+    },
+    {
+      "index": 2,
+      "course_code": "GEE030",
+      "course_name": "GEE Wendy Ritchie",
+      "teacher": "Veronica",
+      "enabled": false
+    },
+    {
+      "index": 3,
+      "course_code": "GEE314",
+      "course_name": "GEE Karen Casey",
+      "teacher": "Louis",
+      "enabled": false
+    },
+    {
+      "index": 4,
+      "course_code": "GEE133",
+      "course_name": "GEE Luis Dolan",
+      "teacher": "Emily",
+      "enabled": true
+    },
+    {
+      "index": 5,
+      "course_code": "GEE013",
+      "course_name": "GEE Doris Carver",
+      "teacher": "Jennifer",
+      "enabled": true
+    },
+    {
+      "index": 6,
+      "course_code": "GEE312",
+      "course_name": "GEE Audrey Coley",
+      "teacher": "Marian",
+      "enabled": false
+    },
+    {
+      "index": 7,
+      "course_code": "GEE134",
+      "course_name": "GEE Judith Finch",
+      "teacher": "Derek",
+      "enabled": false
+    },
+    {
+      "index": 8,
+      "course_code": "GEE400",
+      "course_name": "GEE Paige Siegel",
+      "teacher": "Guy",
+      "enabled": true
+    },
+    {
+      "index": 9,
+      "course_code": "GEE313",
+      "course_name": "GEE Kay Harrell",
+      "teacher": "Guy",
+      "enabled": false
+    },
+    {
+      "index": 10,
+      "course_code": "GEE230",
+      "course_name": "GEE Nicholas Cross",
+      "teacher": "Raymond",
+      "enabled": true
+    }
+  ]
+}

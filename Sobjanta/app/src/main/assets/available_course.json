@@ -1,0 +1,214 @@
+{
+  "items": [
+    {
+      "index": 1,
+      "course_code": "GEE124",
+      "course_name": "GEE Dana Rich",
+      "teacher": "Neal",
+      "enabled": true
+    },
+    {
+      "index": 2,
+      "course_code": "GEE230",
+      "course_name": "GEE Clara Hewitt",
+      "teacher": "Eugene",
+      "enabled": false
+    },
+    {
+      "index": 3,
+      "course_code": "GEE433",
+      "course_name": "GEE Dean Gibbons",
+      "teacher": "Darlene",
+      "enabled": false
+    },
+    {
+      "index": 4,
+      "course_code": "GEE120",
+      "course_name": "GEE Faye Nolan",
+      "teacher": "Oscar",
+      "enabled": true
+    },
+    {
+      "index": 5,
+      "course_code": "GEE342",
+      "course_name": "GEE Frances Gilbert",
+      "teacher": "Stanley",
+      "enabled": false
+    },
+    {
+      "index": 6,
+      "course_code": "GEE123",
+      "course_name": "GEE Anne McKinney",
+      "teacher": "Alex",
+      "enabled": false
+    },
+    {
+      "index": 7,
+      "course_code": "GEE432",
+      "course_name": "GEE Herbert Diaz",
+      "teacher": "Herbert",
+      "enabled": false
+    },
+    {
+      "index": 8,
+      "course_code": "GEE204",
+      "course_name": "GEE Curtis Henry",
+      "teacher": "Marcus",
+      "enabled": true
+    },
+    {
+      "index": 9,
+      "course_code": "GEE223",
+      "course_name": "GEE Claire Grant",
+      "teacher": "Clifford",
+      "enabled": false
+    },
+    {
+      "index": 10,
+      "course_code": "GEE434",
+      "course_name": "GEE Mary Abbott",
+      "teacher": "Michelle",
+      "enabled": false
+    },
+    {
+      "index": 11,
+      "course_code": "GEE022",
+      "course_name": "GEE Scott Clarke",
+      "teacher": "Lewis",
+      "enabled": true
+    },
+    {
+      "index": 12,
+      "course_code": "GEE124",
+      "course_name": "GEE Cathy Hood",
+      "teacher": "Dana",
+      "enabled": false
+    },
+    {
+      "index": 13,
+      "course_code": "GEE331",
+      "course_name": "GEE Dennis Watts",
+      "teacher": "Miriam",
+      "enabled": false
+    },
+    {
+      "index": 14,
+      "course_code": "GEE122",
+      "course_name": "GEE Warren Rich",
+      "teacher": "Carrie",
+      "enabled": false
+    },
+    {
+      "index": 15,
+      "course_code": "GEE100",
+      "course_name": "GEE Eileen Skinner",
+      "teacher": "Nina",
+      "enabled": true
+    },
+    {
+      "index": 16,
+      "course_code": "GEE104",
+      "course_name": "GEE Marc Waller",
+      "teacher": "Faye",
+      "enabled": true
+    },
+    {
+      "index": 17,
+      "course_code": "GEE400",
+      "course_name": "GEE Barry Finch",
+      "teacher": "Nathan",
+      "enabled": true
+    },
+    {
+      "index": 18,
+      "course_code": "GEE204",
+      "course_name": "GEE Gwendolyn Moore",
+      "teacher": "Sandra",
+      "enabled": true
+    },
+    {
+      "index": 19,
+      "course_code": "GEE424",
+      "course_name": "GEE Norman Crane",
+      "teacher": "Lorraine",
+      "enabled": false
+    },
+    {
+      "index": 20,
+      "course_code": "GEE341",
+      "course_name": "GEE Lorraine Hernandez",
+      "teacher": "Allison",
+      "enabled": true
+    },
+    {
+      "index": 21,
+      "course_code": "GEE401",
+      "course_name": "GEE Johnny Klein",
+      "teacher": "Glenda",
+      "enabled": false
+    },
+    {
+      "index": 22,
+      "course_code": "GEE444",
+      "course_name": "GEE Oscar Kirby",
+      "teacher": "Shawn",
+      "enabled": true
+    },
+    {
+      "index": 23,
+      "course_code": "GEE132",
+      "course_name": "GEE Jessica Stark",
+      "teacher": "Wendy",
+      "enabled": true
+    },
+    {
+      "index": 24,
+      "course_code": "GEE011",
+      "course_name": "GEE Nicholas Stanton",
+      "teacher": "Leo",
+      "enabled": false
+    },
+    {
+      "index": 25,
+      "course_code": "GEE204",
+      "course_name": "GEE Roberta Cox",
+      "teacher": "Chris",
+      "enabled": true
+    },
+    {
+      "index": 26,
+      "course_code": "GEE400",
+      "course_name": "GEE Lucy Peterson",
+      "teacher": "Kristin",
+      "enabled": true
+    },
+    {
+      "index": 27,
+      "course_code": "GEE043",
+      "course_name": "GEE Jessica Weeks",
+      "teacher": "Suzanne",
+      "enabled": true
+    },
+    {
+      "index": 28,
+      "course_code": "GEE100",
+      "course_name": "GEE Willie Whitehead",
+      "teacher": "Jeff",
+      "enabled": true
+    },
+    {
+      "index": 29,
+      "course_code": "GEE441",
+      "course_name": "GEE Marguerite Puckett",
+      "teacher": "Rita",
+      "enabled": true
+    },
+    {
+      "index": 30,
+      "course_code": "GEE241",
+      "course_name": "GEE Neal Connor",
+      "teacher": "Oscar",
+      "enabled": false
+    }
+  ]
+}

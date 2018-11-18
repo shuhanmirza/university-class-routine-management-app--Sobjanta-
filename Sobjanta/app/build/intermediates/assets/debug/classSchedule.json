@@ -1,0 +1,67 @@
+{
+  "schedule": [
+    {
+      "index": 1,
+      "course_code": "GEE340",
+      "course_name": "GEE Jennifer Walter",
+      "teacher": "Bradley",
+      "room": "221",
+      "time": "1 AM/PM",
+      "enabled": true
+    },
+    {
+      "index": 2,
+      "course_code": "GEE403",
+      "course_name": "GEE Vincent Warner",
+      "teacher": "Shirley",
+      "room": "110",
+      "time": "11 AM/PM",
+      "enabled": false
+    },
+    {
+      "index": 3,
+      "course_code": "GEE042",
+      "course_name": "GEE Clara Stanton",
+      "teacher": "Ann",
+      "room": "220",
+      "time": "9 AM/PM",
+      "enabled": true
+    },
+    {
+      "index": 4,
+      "course_code": "GEE311",
+      "course_name": "GEE Karen McMahon",
+      "teacher": "Gladys",
+      "room": "022",
+      "time": "9 AM/PM",
+      "enabled": false
+    },
+    {
+      "index": 5,
+      "course_code": "GEE040",
+      "course_name": "GEE Teresa Haynes",
+      "teacher": "Keith",
+      "room": "011",
+      "time": "11 AM/PM",
+      "enabled": false
+    },
+    {
+      "index": 6,
+      "course_code": "GEE233",
+      "course_name": "GEE Clyde Moss",
+      "teacher": "Alison",
+      "room": "101",
+      "time": "11 AM/PM",
+      "enabled": false
+    },
+    {
+      "index": 7,
+      "course_code": "GEE011",
+      "course_name": "GEE Bonnie Lowry",
+      "teacher": "Katherine",
+      "room": "102",
+      "time": "6 AM/PM",
+      "enabled": true
+    }
+  ]
+}

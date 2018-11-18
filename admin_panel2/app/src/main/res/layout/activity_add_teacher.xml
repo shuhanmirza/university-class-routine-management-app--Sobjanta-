@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/book_dark_small"
+    tools:context=".ActivityAddTeacher">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+
+
+        <!-- Email Label -->
+
+            <EditText android:id="@+id/teacher_email"
+                android:background="@drawable/edittextstyle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="text"
+                android:hint="Email"
+                android:textColor="#ffffff"
+                android:layout_centerInParent="true"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:textColorHint="#ffffff"/>
+
+
+        <!-- Password Label -->
+
+            <EditText android:id="@+id/teacher_password"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/edittextstyle"
+                android:layout_height="60dp"
+                android:textColor="#ffffff"
+                android:inputType="text"
+                android:textColorHint="#ffffff"
+                android:layout_centerInParent="true"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:hint="Password"/>
+
+        <EditText android:id="@+id/teacher_name"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/edittextstyle"
+            android:layout_height="60dp"
+            android:textColor="#ffffff"
+            android:inputType="text"
+            android:textColorHint="#ffffff"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="Teacher Name"/>
+
+        <EditText android:id="@+id/teacher_code"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/edittextstyle"
+            android:layout_height="60dp"
+            android:textColor="#ffffff"
+            android:inputType="text"
+            android:textColorHint="#ffffff"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:hint="Course Code"/>
+
+
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:onClick="onSubmitTeacher"
+            android:textColor="#000000"
+            android:text="Add Teacher"/>
+
+        <TextView android:id="@+id/link_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Fill up all fields."
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16dip"/>
+
+    </LinearLayout>
+
+</LinearLayout>
